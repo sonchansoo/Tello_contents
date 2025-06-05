@@ -1,0 +1,16 @@
+使用说明：
+
+1、tello-swarm下含两个文件夹，一个为multi_tello_test，另一个为ap_setup。
+
+2、multi_tello_test文件夹包含执行多机编队的主程序，通过双击multi_tello.exe运行，运行前，必须确保multi_tello.exe同一路径下
+   有一个文件名为Tello_EDU_CMD.txt的文本文档。该文件即为多机编队的脚本，具体的关于多级编队脚本的编写方法请参考python文件夹中
+   的README.md。
+   注意：1、该txt文本文档(Tello_EDU_CMD.txt)文件名不可修改!
+		 2、文件夹中其他文件不得做任意改动或删除操作!
+3、ap_setup文件夹中包含用于设置tello EDU进入station模式的辅助程序，通过双击ap_setup.exe运行，运行前必须确保ap_setup.exe同一路径下
+   有一个文件名为ap_setup.txt的文本文档。该文件中只有一行内容，格式为:
+   wifi名称,wifi密码。如:tello_nest,tellotello。
+   根据你自己的ap的名称和密码，编辑该txt文件。
+   注意：1、该txt文本文档(ap_setup.txt)文件名不可修改!
+		 2、ap_setup.txt中，中间的','不可缺少，且必须是英文格式。
+   
